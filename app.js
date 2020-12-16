@@ -57,6 +57,7 @@ console.log(key)
         case "e":
             let Eastenders = new Audio("./sounds/Eastenders.mp3");
             Eastenders.play();
+            console.log(Eastenders);
             break;
         default:
             console.log(drumInnerHTML);
@@ -68,7 +69,7 @@ console.log(key)
 // Adding Button Animation
 function animation(currentKey) {
 
-    let activeButton = document.querySelector("." + currentKey);
+    let activeButton = document.querySelector(".drum");
     activeButton.classList.add("pressed");
 
     setTimeout(function () {
