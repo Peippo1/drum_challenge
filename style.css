@@ -1,0 +1,99 @@
+body {
+    text-align: center;
+    justify-content: center;
+    background-color: #ec9e69;
+    background-image: url("./giphy-3-1.webp");
+  }
+  
+  h1 {
+    font-size: 5rem;
+    color: #7a4579;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 3px 0 #ffff8f;
+  
+  }
+  
+  footer {
+    color: #DBEDF3;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* .w {
+    background: ("kenrlkgnel");
+  }
+  
+  .a {
+    background-image: url("./lilguy.jpg");
+  }
+  
+  .s {
+    background-image: url("./lilguy.jpg");
+  }
+  
+  .d {
+    background-image: url("./lilguy.jpg");
+  }
+
+  .z {
+    background-image: url("./lilguy.jpg");
+  }
+
+  .j {
+    background-image: url("./lilguy.jpg");
+  }
+  
+  .k {
+    background-image: url("./lilguy.jpg");
+  }
+  
+  .l {
+    background-image: url("./lilguy.jpg");
+  }
+  .m {
+    background-image: url("./lilguy.jpg");
+  }
+  .e {
+    background-image: url("./lilguy.jpg");
+  } */
+  
+  .set {
+    margin: 10% auto;
+  }
+  
+  .game-over {
+    background-color: #ba69de;
+    opacity: 0.8;
+  }
+  
+  .pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+  
+  .red {
+    color: #56073d;
+  }
+  
+  .drum {
+    outline: none;
+    border: 10px solid #7a4579;
+    font-size: 5rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2;
+    font-weight: 900;
+    color: #7a4579;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+}
+@media (max-width: 12450px){
+  .wrapper{
+    flex-direction: column;  
+    align-items: center;
+  }
+}
